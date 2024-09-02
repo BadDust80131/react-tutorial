@@ -7,6 +7,9 @@ import { Test } from "./Test.jsx";
 import Animals from "./Animals.jsx";
 import Animals2 from "./Animals2.jsx";
 import Animals3 from "./Animals3.jsx";
+import Button from "./Button.jsx";
+import Gallery from "./State.jsx";
+import State2 from "./State2.jsx";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -17,5 +20,8 @@ createRoot(document.getElementById("root")).render(
     <Animals />
     <Animals2 />
     <Animals3 />
+    <Button />
+    <Gallery />
+    <State2 />
   </StrictMode>
 );
