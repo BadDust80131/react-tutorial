@@ -11,6 +11,7 @@ import Button from "./Button.jsx";
 import Gallery from "./State.jsx";
 import State2 from "./State2.jsx";
 import "./index.css";
+import Person from "./Person.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,5 +24,6 @@ createRoot(document.getElementById("root")).render(
     <Button />
     <Gallery />
     <State2 />
+    <Person />
   </StrictMode>
 );
