@@ -12,6 +12,7 @@ import Gallery from "./State.jsx";
 import State2 from "./State2.jsx";
 import "./index.css";
 import Person from "./Person.jsx";
+import Effect from "./Effect.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -25,5 +26,6 @@ createRoot(document.getElementById("root")).render(
     <Gallery />
     <State2 />
     <Person />
+    <Effect />
   </StrictMode>
 );
